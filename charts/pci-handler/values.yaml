@@ -19,17 +19,6 @@ global: # global defaults
   nodePortPrefix: 302
   readinessRepository: oomk8s
   readinessImage: readiness-check:2.0.0
-  config:
-    dmaapServer: message-router.onap-message-router
-    sdnrService: 'sdnc.onap-sdnc:8181'
-    policyService: 'pdp.onap-policy:8081'
-    oofService: 'oof-osdf.onap-oof:8699'
-    managerApiKey: 7hs1Hr719bMsarWK
-    managerSecretKey: So9h10kxu1JwsRsyMO8JhSek
-    pcimsApiKey: za9nHWCpUmjzeX5S
-    pcimsSecretKey: zQ5Xl6TSERGG2AuI3vsyRcKf
-    sdnrApiKey: BLWCuDfaWorpGHOz
-    policyApiKey: 3eHuxPUqAnjuJ0g9
 subChartsOnly:
   enabled: true
 
